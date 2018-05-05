@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "1210bbf5-88fd-4899-b81f-cc461e6bae1a",
+            "Value": {
+                "id": "2db69232-a656-4bae-b8e7-32d4fb23526e",
+                "resourcePath": "objects\\UIObjParent\\UIObjParent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1ee4b090-39a4-428a-a67d-f444c208a0ee",
             "Value": {
                 "id": "d1855581-6f2b-444a-8858-88063a442da5",
@@ -52,6 +60,22 @@
                 "id": "b1452b76-b57c-4315-b862-0c377d18d0e8",
                 "resourcePath": "views\\27fa51de-3473-46c0-b58f-54a72cb7df4f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2e8f36b5-1ba7-4aa1-b9a9-05957e643ca1",
+            "Value": {
+                "id": "7d0a4fff-3216-4796-85d5-155023818dd2",
+                "resourcePath": "sprites\\testUISprite\\testUISprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4004c875-ca91-45b0-b390-8baf575144c8",
+            "Value": {
+                "id": "d0ecf4df-17b5-422c-8469-4922a6baeea1",
+                "resourcePath": "sprites\\testUISprite2\\testUISprite2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -84,6 +108,14 @@
                 "id": "e1351f3c-7ccd-4dfa-a11c-0724cfe3dcc7",
                 "resourcePath": "views\\721bb74f-414e-43f7-9feb-d172c6c1a016.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7478d171-153c-4181-b285-470abe4bdf79",
+            "Value": {
+                "id": "518a3af0-1c87-4ba0-8fbb-6e4698bd7343",
+                "resourcePath": "objects\\UIManager\\UIManager.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -167,16 +199,32 @@
             }
         },
         {
+            "Key": "f51e2207-001f-48e7-95f7-7da082cb2e34",
+            "Value": {
+                "id": "c6620184-c824-4d7c-990f-3c0903246f3e",
+                "resourcePath": "objects\\testUIElement\\testUIElement.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "fbe16c8e-c624-4245-a6eb-e8dfcd8144f4",
             "Value": {
                 "id": "bbcc1480-fdff-4fd4-aae4-e980218356ad",
                 "resourcePath": "views\\fbe16c8e-c624-4245-a6eb-e8dfcd8144f4.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "fe8622fc-5239-4af9-85c8-e63b3487cb7d",
+            "Value": {
+                "id": "48c13faa-4642-4d88-94fc-3405a2400b3e",
+                "resourcePath": "scripts\\script_UIHitCheck\\script_UIHitCheck.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "script_order": [
-        
+        "fe8622fc-5239-4af9-85c8-e63b3487cb7d"
     ],
     "tutorial": ""
 }
