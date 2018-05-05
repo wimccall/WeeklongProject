@@ -3,10 +3,6 @@
 bHover = false;
 sprite_Highlighted = noone;
 sprite_Normal = sprite_index;
-xPos = x;
-yPos = y;
-width = sprite_width;
-height = sprite_height; 
 
 // Check whether the sprite has been set
 if (sprite_Normal == -1) {
