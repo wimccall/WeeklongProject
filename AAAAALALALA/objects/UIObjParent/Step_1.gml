@@ -6,3 +6,7 @@ bHover = script_UIHitCheck(x, y, x + sprite_width, y + sprite_height);
 
 // If its not, no reason to run the rest of the script
 if (!bHover) return;
+
+bDoAction = (bHover && bMouseHeld && !(mouse_button == mb_left));
+
+bMouseHeld = (mouse_button == mb_left);

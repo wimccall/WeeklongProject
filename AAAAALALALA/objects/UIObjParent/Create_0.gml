@@ -1,7 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 bHover = false;
+bMouseHeld = false;
+bDoAction = false;
+
 sprite_Highlighted = noone;
+sprite_MouseHeld = noone;
 sprite_Normal = sprite_index;
 depth = -1;
 
