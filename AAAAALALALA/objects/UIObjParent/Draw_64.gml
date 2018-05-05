@@ -1,6 +1,7 @@
 // Dont run this code if the menu is open.
 if (!global.bMenuOpen) return;
 
+draw_set_alpha(1);
 if (bHover) {
 	if (sprite_Highlighted != noone) draw_sprite(sprite_Highlighted, image_index, x, y);
 	else { // If no highlighted sprite is provided, draw the normal one with a lower alpha value
